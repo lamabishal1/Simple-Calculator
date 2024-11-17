@@ -1,0 +1,57 @@
+body{
+    padding: 25px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+  }
+  .container{
+    font-family: Sans-Serif, Arial;
+    background-color:black ;
+    border-radius: 15px;
+    overflow: hidden;
+    max-width: 500px;
+  }
+  #display{
+    width: 100%;
+    padding: 20px;
+    font-size: 5rem;
+    text-align: left;
+    border: none;
+    background: rgba(128, 128, 128, 0.309);
+    color: white;
+  }
+  #keys{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    padding: 25px;
+  }
+  button{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: none;
+    background: rgba(128, 128, 128, 0.358);
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  button:hover{
+    background-color: hsla(0, 0%, 40%, 0.528);
+  }
+  button:active{
+    background-color: hsla(0, 0%, 50%, 0.528);
+  }
+  .operator-btn{
+    background-color: hsla(39, 100%, 50%, 0.891);
+  }
+  .operator-btn:hover{
+    background-color: hsla(39, 100%, 65%, 0.891);
+  }
+  .operator-btn:active{
+    background-color: hsla(39, 100%, 75%, 0.891);
+  }
